@@ -1,0 +1,26 @@
+{
+    "name": "slexx/yii2-deploy",
+    "description": "Yii2 Deploy toolkit",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Eugine Terentev",
+            "email": "eugine@terentev.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "herzult/php-ssh":"~1.0"
+    },
+    "autoload": {
+        "psr-4": { "trntv\\deploy\\": "" }
+    },
+    "extra":{
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+
+}
